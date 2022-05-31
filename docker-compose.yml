@@ -7,5 +7,5 @@ services:
     volumes:
       - "./html:/data/www"
       - "./images:/data/images"
-      - "./dir:/data/dir"
+      - "./dir1:/data/dir1"
       - "./nginx.conf:/etc/nginx/nginx.conf"
