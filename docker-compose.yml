@@ -5,7 +5,6 @@ services:
     ports:
       - "8080:80"
     volumes:
-      - "./html:/data/www"
-      - "./images:/data/images"
-      - "./dir1:/data/dir1"
+      - "./html/:/data/www/"
+      - "./:/data/"
       - "./nginx.conf:/etc/nginx/nginx.conf"
