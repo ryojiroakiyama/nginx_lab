@@ -7,4 +7,4 @@ services:
     volumes:
       - "./html/:/data/www/"
       - "./:/data/"
-      - "./nginx.conf:/etc/nginx/nginx.conf"
+      - "${confpath}:/etc/nginx/nginx.conf"
